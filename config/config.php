@@ -3,7 +3,7 @@
 
 define('APP_NAME',     'DailyMart');
 define('APP_TAGLINE',  'Kebutuhan Harian, Kualitas Premium');
-define('APP_URL',      'http://localhost/dailymart/public');
+define('APP_URL',      'http://localhost/Project-Testing-Kelompok1/public');
 define('APP_VERSION',  '1.0.0');
 
 define('DB_HOST',    'localhost');

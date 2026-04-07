@@ -33,24 +33,8 @@
       Belum punya akun?
       <a href="<?= APP_URL ?>/auth/register" class="fw-700 text-success">Daftar gratis</a>
     </p>
-
-    <div class="mt-4 pt-3 border-top">
-      <p class="tiny text-muted text-center mb-2"><i class="bi bi-info-circle me-1"></i>Akun Demo — klik untuk isi otomatis</p>
-      <div class="demo-cred mb-2" onclick="fillDemo('admin@dailymart.id','password123')">
-        <span class="badge bg-danger me-2" style="font-family:'Outfit',sans-serif">Admin</span>
-        admin@dailymart.id / <strong>password123</strong>
-      </div>
-      <div class="demo-cred" onclick="fillDemo('budi@example.com','password123')">
-        <span class="badge bg-primary me-2" style="font-family:'Outfit',sans-serif">User</span>
-        budi@example.com / <strong>password123</strong>
-      </div>
     </div>
   </div>
 </div>
 <script>
-function fillDemo(e,p){
-  document.querySelector('input[name="email"]').value=e;
-  document.querySelector('input[name="password"]').value=p;
-  if(typeof toast==='function') toast('Kredensial diisi otomatis','info');
-}
 </script>
