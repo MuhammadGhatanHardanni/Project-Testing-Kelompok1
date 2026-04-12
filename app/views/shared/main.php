@@ -151,18 +151,18 @@ foreach(['success','error','info','warning'] as $t){
       <div class="fw-700 small mb-2" style="font-family:'Outfit',sans-serif">Kontak</div>
       <p class="footer-link"><i class="bi bi-envelope me-2"></i>hello@dailymart.id</p>
       <p class="footer-link"><i class="bi bi-telephone me-2"></i>0800-DAILY-ID</p>
-      <p class="footer-link"><i class="bi bi-geo-alt me-2"></i>Yogyakarta, Indonesia</p>
+      <p class="footer-link"><i class="bi bi-geo-alt me-2"></i>Jakarta, Indonesia</p>
       <div class="mt-3 p-3 rounded-3" style="background:var(--brand-light)">
         <div class="fw-700 small mb-1" style="font-family:'Outfit',sans-serif;color:var(--brand)">
           <i class="bi bi-shield-check me-1"></i>Belanja Aman & Terpercaya
         </div>
-        <div class="text-muted" style="font-size:.75rem">SSL Secured · Garansi Kesegaran · Gratis Ongkir</div>
+        <div class="text-muted" style="font-size:.75rem">Garansi Kesegaran · Gratis Ongkir</div>
       </div>
     </div>
   </div>
   <div class="footer-copy">
     <span class="text-muted small">&copy; <?= date('Y') ?> <?= APP_NAME ?>. Hak cipta dilindungi.</span>
-    <span class="text-muted" style="font-size:.72rem">v<?= APP_VERSION ?> · Platform Praktik Software QA</span>
+    <span class="text-muted" style="font-size:.72rem">v<?= APP_TAGLINE ?> · Platform Belanja</span>
   </div>
 </div>
 </footer>

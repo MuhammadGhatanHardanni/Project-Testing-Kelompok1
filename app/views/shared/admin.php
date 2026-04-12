@@ -20,7 +20,6 @@
       <div class="sb-brand-icon"><i class="bi bi-basket2-fill"></i></div>
       <div>
         <span class="sb-brand-name"><?= APP_NAME ?></span>
-        <span class="sb-brand-ver">v<?= APP_VERSION ?></span>
       </div>
     </div>
 
